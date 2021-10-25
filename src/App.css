@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Tourney:wght@900&display=swap');
+body{
+  background: linear-gradient(rgb(45, 101, 223),rgb(226, 156, 215),rgb(230, 89, 211));
+  background-repeat: no-repeat;
+}
+button{
+  border-radius: 5px;
+  border: none;
+  background-image: linear-gradient(rgba(163, 157, 224, 0.795),rgba(230, 87, 111, 0.863));
+  color: rgb(20, 18, 18);
+  padding: 12px;
+}
+button:hover{
+  transition: 200ms;
+  transform:scale(1.1);
+}
+button:focus{
+  outline: none;
+}
+nav{
+  color: rgb(241, 239, 238);
+  background-attachment: fixed;
+  background-color:rgba(7, 31, 63, 0.986);
+  
+}
+.loader{
+  margin: 0 auto;
+}
+.avatar{
+  border-radius: 70px;
+  margin-bottom: 10px;
+}
+#main{
+  padding: 15px 50px;
+  margin: 0 auto;
+  display: none;
+}
+#main img{
+  animation-delay: 5s;
+}
+.profile {
+  max-width: 300px;
+  margin: 15px auto;
+  text-align: center;
+  font-family: arial;
+  padding: 20px;
+  border-color: rgba(2, 10, 53, 0.938);
+  border-style:solid;
+  border-width: 7px;
+  border-top-right-radius:60px;
+  border-bottom-left-radius: 60px;
+  border-bottom-right-radius: 60px;
+  border-top-left-radius: 60px;
+  background: linear-gradient(-45deg , #f8cc08ec, #da9d6eb9);
+}
+.profile:hover{
+  transition:500ms;
+  box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.6);
+}
+.name{
+  font-family: cursive;
+  font-style: italic;
+  font-variant: small-caps;
+  color: rgb(0, 26, 255);
+  font-size:25px;
+  font-weight: bold;
+}
+.email {
+  background-color: #119fca79;
+  border-radius: 60px;
+  font-family: cursive ;
+  font-size: 18px;
+  overflow-wrap: break-word;
+}
